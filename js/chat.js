@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Generate AI response from API
     async function generateAIResponse(prompt) {
         try {
-            const res = await fetch("http://127.0.0.1:5000/", {
+            const res = await fetch("https://zaynchat.onrender.com/", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
