@@ -46,12 +46,15 @@
             </div>
             
             <div class="message-input-area">
-                <form id="messageForm">
-                    <textarea 
-                        id="messageInput" 
-                        placeholder="Type your message here..." 
-                        rows="3"
-                    ></textarea>
+                <form id="messageForm" class="message-form-flex">
+                    <div class="input-with-upload">
+                        <button type="button" class="add-pdf-btn" id="addPdfBtn" title="Add PDF">+</button>
+                        <textarea 
+                            id="messageInput" 
+                            placeholder="Type your message here..." 
+                            rows="3"
+                        ></textarea>
+                    </div>
                     <button type="submit" id="sendBtn">
                         <span class="send-icon">↑</span>
                         <span class="loading-icon">⟳</span>
